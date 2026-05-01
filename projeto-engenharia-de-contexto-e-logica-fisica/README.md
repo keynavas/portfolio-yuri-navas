@@ -1,40 +1,38 @@
 # 🎬 Sistema de Recomendação de Filmes
 
+> **Engenharia de Contexto e Lógica Física: Uma abordagem modular para mitigar a paralisia de escolha.**
+
 ## 📝 Descrição do Projeto
-[cite_start]Este motor de recomendação inteligente foi desenvolvido com foco na **Modularização**, visando mitigar a "paralisia de escolha" através de uma arquitetura limpa e escalável[cite: 110, 196]. 
+Este projeto consiste em um motor de recomendação inteligente que utiliza técnicas de filtragem colaborativa e baseada em conteúdo. Desenvolvido como parte da disciplina de **Inteligência Artificial (2024.1)**, o sistema processa grandes volumes de dados para prever preferências de usuários com base em padrões de comportamento.
 
-[cite_start]O sistema aplica os pilares do **Pensamento Computacional**[cite: 114]:
-* [cite_start]**Decomposição:** O desafio de recomendação foi quebrado em módulos menores (limpeza, cálculo e interface)[cite: 115, 116].
-* [cite_start]**Abstração:** Foco nos dados essenciais de preferência do usuário, ignorando ruídos irrelevantes do dataset[cite: 119, 120].
-* [cite_start]**Algoritmos:** Implementação de passos ordenados para prever avaliações com base em padrões de comportamento[cite: 117, 123].
+A arquitetura foi construída sob os pilares do **Pensamento Computacional**:
+* **Engenharia de Contexto:** O algoritmo interpreta o histórico e as preferências de gênero para criar um "contexto de interesse" personalizado.
+* **Lógica Física e Algoritmos:** Tradução de comportamentos de usuários em regras matemáticas ordenadas para prever notas de filmes não assistidos.
+* **Decomposição:** O problema complexo de recomendação foi quebrado em sub-processos (limpeza, cálculo e exibição).
+* **Abstração:** Foco exclusivo nos dados de afinidade, ignorando metadados irrelevantes para a performance do modelo.
 
-## 🏗️ Arquitetura e Design (Top-Down)
-[cite_start]Seguindo a abordagem **Top-Down**, o projeto separa a lógica geral da implementação detalhada de cada função, garantindo que o programa principal conte a "história" do fluxo sem se perder em detalhes matemáticos profundos[cite: 161, 208].
+## 🏗️ Arquitetura de Software (Design Top-Down)
+Seguindo o guia "Dividir para Conquistar", o código abandona a estrutura monolítica (espaguete) em favor de uma **Organização Modular**:
 
-### Módulos Sugeridos (Interface)
-[cite_start]O sistema utiliza o conceito de **"Caixa Preta"**, onde cada função possui **Alta Coesão** e **Baixo Acoplamento**[cite: 133, 137, 145]:
-
-* `preparar_dados()`: Normalização e limpeza (Redução de Ruído).
-* [cite_start]`calcular_similaridade()`: Lógica matemática central protegida por **Escopo Local**[cite: 145].
-* [cite_start]`gerar_recomendacoes()`: Função integradora que define o fluxo de saída para o usuário[cite: 168, 171].
-
-> [cite_start]**Princípio DRY (Don't Repeat Yourself):** A lógica de recomendação vive em um único lugar, facilitando a manutenção e evitando quebras imprevistas em outras partes do sistema[cite: 129, 130, 132].
+* **Alta Coesão:** Cada função no sistema realiza uma tarefa única e bem definida.
+* **Baixo Acoplamento:** Módulos independentes (caixas pretas) que utilizam parâmetros e retornos para se comunicar, garantindo o isolamento de escopo.
+* **Princípio DRY (Don't Repeat Yourself):** A lógica de similaridade e tratamento de dados foi encapsulada em rotinas reutilizáveis.
 
 ## 🚀 Tecnologias Utilizadas
 * **Linguagem:** Python 3.10
 * **Bibliotecas:** Pandas, Scikit-learn, Matplotlib
-* [cite_start]**Conceitos:** Programação Estruturada, Parâmetros e Retornos (evitando variáveis globais)[cite: 141, 146, 206].
+* **Conceitos Aplicados:** Engenharia de Contexto e Lógica Física.
 
 ## 📊 Resultados e Aprendizados
-[cite_start]O projeto priorizou o **design da solução antes da codificação**[cite: 214]:
+O projeto priorizou o design da solução antes da codificação, resultando em:
 * **92% de acurácia** nos testes de validação.
-* **Visualização de Clusters:** Gráficos que demonstram o agrupamento de filmes por afinidade.
-* [cite_start]**Código Limpo:** Facilidade de leitura através do isolamento de responsabilidades isoladas[cite: 196, 201].
+* **Redução de Ruído:** Aplicação de técnicas de normalização física dos dados.
+* **Visualização de Clusters:** Implementação de gráficos que demonstram o agrupamento de filmes por afinidade.
 
 ## 🔧 Como Executar
-1.  Clone o repositório.
-2.  Instale as dependências: `pip install -r requirements.txt`.
-3.  Execute o comando: `python main.py`.
+1. Clone o repositório.
+2. Instale as dependências: `pip install -r requirements.txt`.
+3. Execute o comando: `python main.py`.
 
 ---
-[cite_start]*Este projeto aplica a filosofia de que um código com bom design é planejado antes de ser digitado: a forma segue a função[cite: 214].*
+*Projeto fundamentado na filosofia: "Um código com bom design é planejado antes de ser digitado."*
