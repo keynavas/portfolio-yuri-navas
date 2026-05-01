@@ -1,12 +1,32 @@
+# ⚖️ Sistema de Auditoria de Vendas Semanais
 
-🛡️ Algoritmo de Auditoria de Dados de Vendas
+## 📝 Descrição do Projeto
+Este projeto consiste em um sistema de análise de consistência de dados financeiros, desenvolvido para detectar anomalias e garantir a integridade de registros de vendas. O objetivo principal é aplicar a **Engenharia de Contexto** para identificar "outliers" (discrepâncias) que possam distorcer a realidade financeira de uma operação.
 
-📝 Descrição do ProjetoEste projeto consiste em uma ferramenta de auditoria e conformidade financeira desenvolvida para identificar anomalias em registros de vendas. O objetivo principal é automatizar a detecção de valores atípicos (outliers) e garantir que a média das transações permaneça dentro de limites de segurança operacionais.
+O sistema utiliza os pilares do **Pensamento Computacional** para tratar fenômenos da **Lógica Física** do mercado:
+* **Engenharia de Contexto:** O software interpreta se uma venda é legítima ou suspeita comparando-a com o comportamento médio do grupo e limites de segurança globais.
+* **Decomposição:** O processo de auditoria é dividido em: Entrada (Casting), Processamento (Média), Investigação (Anomalias) e Apresentação (Tipagem).
+* **Abstração:** Foco nos valores monetários e margens de tolerância, ignorando detalhes burocráticos para otimizar a velocidade da análise.
 
-O script analisa trios de vendas, calcula médias e dispara alertas automáticos de "Quarentena" ou "Revisão Manual" caso detecte desvios significativos ou valores que excedam o teto de segurança estabelecido, mitigando riscos de fraudes ou erros de digitação.Figura 1: Fluxo lógico do sistema de auditoria e travas de segurança.
+## 🚀 Tecnologias Utilizadas
+* **Linguagem:** Python 3.10 (f-strings, global scope, casting de tipos)
+* **Conceitos de Engenharia:** Lógica Condicional, Escopo Global vs. Local e Detecção de Outliers.
 
-🚀 Funcionalidades e Regras de NegócioCálculo de Média Automático: Processa o valor de três vendas simultâneas.Trava de Segurança (Quarentena): Bloqueia o sistema caso a média das vendas ultrapasse o LIMITE_SEGURANCA (configurado em R$ 1.000,00).Detecção de Outliers (Revisão Manual): Identifica se alguma venda individual é 5 vezes maior que a média do grupo, sinalizando a necessidade de conferência humana.Validação de Tipagem: Garante a integridade dos dados conferindo o tipo primitivo das entradas (float).
+## 🏗️ Arquitetura e Modularização
+Seguindo o princípio **DRY (Don't Repeat Yourself)** e buscando **Alta Coesão**, o código foi estruturado para que a lógica de investigação seja independente da entrada de dados:
+* **Escopo Seguro:** Uso controlado da palavra-chave `global` para permitir que gestores ajustem parâmetros de segurança em tempo de execução.
+* **Isolamento de Funções:** A função `analisar_vendas()` atua como uma "caixa preta" que recebe os valores físicos e devolve um diagnóstico de quarentena ou revisão manual.
 
-🛠️ Tecnologias UtilizadasLinguagem: Python 3.xParadigma: Programação EstruturadaFerramentas: Google Colab / Ambiente Local Python📊 Lógica de AuditoriaO projeto foca em integridade e consistência.
+## 📊 Resultados e Aprendizados
+O projeto demonstrou como a programação estruturada pode proteger sistemas contra erros humanos e fraudes:
+* **Detecção de Anomalias:** Implementação de lógica que identifica vendas 5x maiores que a média (outliers).
+* **Normalização de Dados:** Compreensão de como valores extremos podem "mentir" sobre a média e a importância de auditorias manuais.
+* **Teste de Estresse:** O sistema foi validado com cenários de alta discrepância, garantindo que o alerta de "REVISÃO MANUAL" seja disparado corretamente.
 
-Abaixo, a representação da sensibilidade do algoritmo:CondiçãoAção do SistemaMotivoMédia > R$ 1.000,00SISTEMA EM QUARENTENAVolume financeiro acima do limite operacional.Venda > (Média * 5)REVISÃO MANUALValor individual desproporcional à média (Outlier).
+## 🔧 Como Executar
+1. Clone o repositório.
+2. Certifique-se de ter o Python 3.10 instalado.
+3. Execute o comando: `python auditoria_vendas.py`.
+
+---
+[Voltar ao início](https://github.com/seu-usuario/seu-usuario)
