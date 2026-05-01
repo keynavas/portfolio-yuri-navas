@@ -1,4 +1,4 @@
-# Yuri Navas
+# Yuri Navas Moreira
 > Estudante de Ciência da Computação
  
 ---
