@@ -16,10 +16,6 @@ Sou estudante de Ciência da Computação na Universidade Cidade de São Paulo, 
 Tenho interesse em UX/UI Design e utilizo ferramentas como Figma e Adobe Photoshop para criar interfaces intuitivas e visualmente consistentes. Paralelamente, desenvolvo minha base em programação com Python, buscando integrar funcionalidade e usabilidade em projetos reais.
 
 Minha experiência prévia com design e marketing me permite pensar além da interface, criando soluções centradas no usuário e orientadas a resultados.
-
-Design & UX/UI: Figma, Adobe Photoshop, prototipação, wireframes e princípios de usabilidade.
-Habilidades Técnicas: Python (fundamentos), versionamento com Git/GitHub.
-Habilidades Socioemocionais: Pensamento analítico, comunicação clara, organização e resolução de problemas.
  
 ---
  
