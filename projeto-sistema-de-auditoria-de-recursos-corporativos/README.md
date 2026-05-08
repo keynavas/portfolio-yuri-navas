@@ -4,7 +4,7 @@
 [![Status](https://img.shields.io/badge/status-concluído-brightgreen.svg)]()
  
 ## 📖 Sobre o Projeto
-Este projeto foi desenvolvido como parte da disciplina de [Nome da Disciplina] do curso de [Nome do Curso]. O objetivo do script é processar e calcular o orçamento de uma estrutura organizacional complexa (dicionários aninhados) de uma multinacional, aplicando regras de negócio dinâmicas e auditoria de execução.
+Este projeto foi desenvolvido como parte da disciplina de Sistema de Auditoria de Recursos Corporativos do curso de Ciência da computação. O objetivo do script é processar e calcular o orçamento de uma estrutura organizacional complexa (dicionários aninhados) de uma multinacional, aplicando regras de negócio dinâmicas e auditoria de execução.
  
 A solução foi arquitetada utilizando conceitos avançados de Python para garantir flexibilidade, performance e rastreabilidade.
  
@@ -28,15 +28,15 @@ Este projeto foi construído utilizando Python puro (Standard Library), com foco
 ### Passo a Passo
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/SeuUsuario/seu-repositorio.git](https://github.com/SeuUsuario/seu-repositorio.git)
+   git clone https://github.com/keynavas/projeto-sistema-de-auditoria-de-recursos-corporativos.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   cd seu-repositorio
+   cd projeto-sistema-de-auditoria-de-recursos-corporativos
    ```
 3. Execute o script principal:
    ```bash
-   python main.py
+   python sistema_de_auditoria_de_recursos_corporativos.py
    ```
  
 ## 🧠 Lógica e Estrutura do Código
