@@ -46,8 +46,8 @@ Minha experiência prévia com design e marketing me permite pensar além da int
 | **Projeto Engenharia de Contexto e Logica Fisica** | Aplicar os conceitos de Listas, Estruturas de Repetição (for, while), Estruturas de Decisão (if/else, match-case), Funções e Operadores Complexos na resolução de problemas do mundo real, exigindo coleta de dados manual e mapeamento espacial. | [Ver Projeto](./projeto-engenharia-de-contexto-e-logica-fisica/) |
 | **Projeto Desenhando Emojis com Dados** | Manipular listas, tuplas e dicionários usando loops aninhados para criar e modificar a "arte" de um emoji. | [Ver Projeto](./projeto-desenhando-emojis-com-dados/) |
 | **Projeto Traduzindo Logica Para Python** | Projeto focado em transformar conceitos de lógica de programação em soluções práticas utilizando a linguagem Python. | [Ver Projeto](./projeto-traduzindo-logica-para-python/) |
+| **Sistema de Auditoria de Recursos Corporativos** | Sistema em Python desenvolvido para realizar auditoria e cálculo de orçamentos corporativos utilizando recursão, decorators e estruturas de dados aninhadas. | [Ver Projeto](./projeto-sistema-de-auditoria-de-recursos-corporativos/) |
 
- 
 ---
  
 ### 🏗 Estrutura do Repositório
