@@ -41,12 +41,12 @@ Minha experiência prévia com design e marketing me permite pensar além da int
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
 | **Projeto Algoritmo de Auditoria de Dados** | Um programa que analise a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias. | [Ver Projeto](./projeto-algoritmo-de-auditoria-de-dados/) |
-| **Projeto Engenharia de Solucoes Logicas** | Uma solução algorítmica para um problema complexo do mundo real, partindo da abstração visual até a validação lógica. | [Ver Projeto](./projeto-engenharia-de-solucoes-logicas/) |
-| **Projeto Modularização** | Uma solução algorítmica para um problema complexo do mundo real, partindo da abstração visual até a validação lógica. | [Ver Projeto](./projeto-engenharia-de-solucoes-logicas/) |
-| **Projeto Engenharia de Contexto e Logica Fisica** | Aplicar os conceitos de Listas, Estruturas de Repetição (for, while), Estruturas de Decisão (if/else, match-case), Funções e Operadores Complexos na resolução de problemas do mundo real, exigindo coleta de dados manual e mapeamento espacial. | [Ver Projeto](./projeto-engenharia-de-contexto-e-logica-fisica/) |
-| **Projeto Desenhando Emojis com Dados** | Manipular listas, tuplas e dicionários usando loops aninhados para criar e modificar a "arte" de um emoji. | [Ver Projeto](./projeto-desenhando-emojis-com-dados/) |
-| **Projeto Traduzindo Logica Para Python** | Projeto focado em transformar conceitos de lógica de programação em soluções práticas utilizando a linguagem Python. | [Ver Projeto](./projeto-traduzindo-logica-para-python/) |
-| **Projeto Sistema de Auditoria de Recursos Corporativos** | Sistema em Python desenvolvido para realizar auditoria e cálculo de orçamentos corporativos utilizando recursão, decorators e estruturas de dados aninhadas. | [Ver Projeto](./projeto-sistema-de-auditoria-de-recursos-corporativos/) |
+| **Engenharia de Solucoes Logicas** | Uma solução algorítmica para um problema complexo do mundo real, partindo da abstração visual até a validação lógica. | [Ver Projeto](./projeto-engenharia-de-solucoes-logicas/) |
+| **Modularização** | Uma solução algorítmica para um problema complexo do mundo real, partindo da abstração visual até a validação lógica. | [Ver Projeto](./projeto-engenharia-de-solucoes-logicas/) |
+| **Engenharia de Contexto e Logica Fisica** | Aplicar os conceitos de Listas, Estruturas de Repetição (for, while), Estruturas de Decisão (if/else, match-case), Funções e Operadores Complexos na resolução de problemas do mundo real, exigindo coleta de dados manual e mapeamento espacial. | [Ver Projeto](./projeto-engenharia-de-contexto-e-logica-fisica/) |
+| **Desenhando Emojis com Dados** | Manipular listas, tuplas e dicionários usando loops aninhados para criar e modificar a "arte" de um emoji. | [Ver Projeto](./projeto-desenhando-emojis-com-dados/) |
+| **Traduzindo Logica Para Python** | Projeto focado em transformar conceitos de lógica de programação em soluções práticas utilizando a linguagem Python. | [Ver Projeto](./projeto-traduzindo-logica-para-python/) |
+| **Sistema de Auditoria de Recursos Corporativos** | Sistema em Python desenvolvido para realizar auditoria e cálculo de orçamentos corporativos utilizando recursão, decorators e estruturas de dados aninhadas. | [Ver Projeto](./projeto-sistema-de-auditoria-de-recursos-corporativos/) |
 
 ---
  
